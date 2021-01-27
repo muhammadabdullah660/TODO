@@ -1,0 +1,52 @@
+#desc 
+{
+    vertical-align: top;
+}
+.headings
+{
+    text-align: center;
+} 
+
+.form label 
+{
+    float: left;
+    display: block;
+    width: 100px;
+}
+.row2 form
+{
+    margin-left: 32%;
+    margin-top: 6%;
+
+}
+.inputbox
+{
+    width: 40%;
+}
+.form button 
+{
+    margin-left: 14%;
+}
+
+
+th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top:1px solid #ddd; ;
+  }
+  tr:hover 
+  {
+color: rgb(58, 57, 57); cursor: pointer;
+  }
+  .relation
+  {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20%;
+      
+  }
+  .buton 
+  {
+      width: 50%;
+  }

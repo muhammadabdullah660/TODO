@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="container form">
+            <div class="row row1">
+                <div class="col-lg-12">
+                    <h1 class="headings">Welcome! Here is your TODO List</h1>
+                    <h2 class="headings">Let's schedule your routine</h2>
+                </div>
+            </div>
+
+            <div class="row row2">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <form action="" name="myform">
+                        <label for="">Date :</label>
+                        <input type="date" name="date" id="date" class="inputbox" required> <br><br>
+
+
+
+                        <label for="">Title :</label>
+                        <input type="text" name="title" id="title" class="inputbox" required> <br><br>
+
+
+
+                        <label for="" id="desc">Description :</label>
+                        <textarea name="descript" id="descript" cols="40" rows="10">
+        </textarea> <br> <br>
+
+                        <button type="button" class="btn btn-primary" onclick="formData()">Add</button>
+
+                    </form>
+
+                </div>
+                <div class="row row3">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="table-responsive">
+                            <table class="relation">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Date</th>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Actions</th>
+                                </tr>
+                                <!-- <tr id="tableRow1">
+                               <td colspan="4"> No data found</td> -->
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+<!--  -->
